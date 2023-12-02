@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./party.jpg"); 
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    color: white;
+}
+h1{
+    font-size: 6rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.936);
+    /* border: 1px solid white; */
+}
+.images {
+    margin: 18rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    gap: 3rem;
+    /* border: 1px solid white; */
+}
+.images button{
+    border: 5px solid rgb(16, 16, 83);
+    border-radius: 35%; /*15px*/
+    cursor: pointer;
+    width: 100%;
+    height: 100%; 
+    color: red;
+    font-size: 3rem;
+}
+.images .w {
+    background-image:  url(./tom1.png);
+}
+.images .a {
+    background-image:  url(./kick.png);
+}
+.images .s {
+    background-image:  url(./tom2.png);
+}
+.images .d{
+    background-image:  url(./crash.png);
+}
+.images .j {
+    background-image:  url(./tom3.png);
+}
+.images .k{
+    background-image:  url(./snare.png);
+}
+.images .l{
+    background-image:  url(./tom4.png);
+}
+
+h4{
+    color: red;
+    font-size: 30px;
+}
